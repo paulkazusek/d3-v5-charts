@@ -1,9 +1,22 @@
+// set the dimensions and margins of the graph
 var height = 800
 var width = 800
 var margin = { top: 30, left: 30, right: 30, bottom: 30 }
 
 var maxY = 100
-const data = [{ x: 0, y: 10 }, { x: 10, y: 50 }, { x: 20, y: 25 }, { x: 25, y: 30 }]
+const data = [
+    { x:   0, y: 50 },
+    { x:  10, y: 10 },
+    { x:  20, y: 65 },
+    { x:  30, y: 30 },
+    { x:  40, y: 15 },
+    { x:  50, y: 70 },
+    { x:  60, y: 40 },
+    { x:  70, y: 60 },
+    { x:  80, y: 70 },
+    { x:  90, y: 80 },
+    { x: 100, y: 40 },
+]
 
 var yScale, xScale
 
